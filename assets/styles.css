@@ -22,7 +22,7 @@ a:hover{
   text-decoration: underline;
 }
 
-button{
+.hero button{
   background-color: #3882F6;
   color: white;
   padding: 8px 16px;
@@ -30,11 +30,12 @@ button{
   border-radius: 3%;
 }
 
-button:hover{
+.hero button:hover{
   background-color: #E5E7EB;
   color:#3882F6;
   cursor: pointer;
 }
+
 .right-links{
   display: flex;
   margin-left: auto;
@@ -107,6 +108,7 @@ button:hover{
   display: flex;
   gap: 64px;
   flex-wrap: wrap;
+  padding-bottom: 16px;
 }
 
 .card{
@@ -124,4 +126,79 @@ button:hover{
 
 .card-info{
   text-align: center;
+}
+
+.quote{
+  padding: 64px 16px;
+  background-color: #E5E7EB;
+}
+
+.quote-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.quote-text{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-author{
+  display: flex;
+  margin-left: auto;
+  font-weight: bolder;
+}
+
+.cta-area{
+  background-color: white;
+  padding: 64px 12px;
+}
+.cta{
+  width: 50%;
+  background-color: #3882F6;
+  margin: auto;
+  display: flex;
+  padding: 32px 64px;
+}
+
+.cta-content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 75%;
+}
+
+.cta-header{
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.cta-text{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.cta button{
+  background-color: #3882F6;
+  border: solid 2px #F9FAF8;
+  color: #F9FAF8;
+  border-radius: 3%;
+  padding: 8px 16px;
+  align-self: center;
+  margin-left: auto;
+}
+
+.cta button:hover{
+  cursor: pointer;
+  background-color: #7eafff;
+  
+}
+
+footer{
+  text-align: center;
+  color:#E5E7EB;
+  padding: 32px;
 }
